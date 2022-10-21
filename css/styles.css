@@ -1,0 +1,197 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+.centered{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.containerPage{
+     display: flex;
+     background-image: url("/img/background-desktop.png");
+     background-size: cover;
+     flex-direction: column !important;
+     height: 100vh !important;
+     max-width: 1920px !important;
+}
+
+.containerPage img{
+     background-size: cover !important;
+     max-width: 1920px !important;
+     width: 100% !important;
+}
+
+.initialPhrase h1{
+     left: auto;
+     position: absolute;
+     top: 5%;
+     z-index: 30;
+}
+
+.drRafael{
+     min-height: 100vh !important;
+}
+
+.drRafael h1{
+     margin-bottom: 10vh !important;
+}
+
+.drRafael img{
+     background-size: 60% !important;
+}
+
+.drRafael p{
+     font-size: 1.2rem;
+     line-height: 40px;
+     margin-bottom: 20px;
+}
+
+.secondPhrase{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     height: auto !important;
+     justify-content: center;
+}
+
+.oferta{
+     align-items: center;
+     background-color: #484B57;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 1920px !important;
+     min-height: 80vh !important;
+}
+
+.containerCards{
+     align-items: center !important;
+     display: flex !important;
+     flex-wrap: wrap;
+     justify-content: center !important;
+     max-width: 1920px !important;
+     min-height: 70vh !important;
+     width: 100%;
+}
+
+.cards{
+     align-items: center;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 30rem;
+     min-height: 25rem;
+}
+
+.sectionTitle h3{
+     width: 200px;
+}
+
+.sectionTitle{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.boxs{
+     align-items: center;
+     display: flex;
+     height: 40px;
+     justify-content: center;
+     width: 40px;
+}
+
+.box{
+     background-color: lightgrey;
+     border-radius: 5px;
+}
+
+.garantias{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     min-height: 50vh !important;
+}
+
+.boxGarantia{
+     align-items: center;
+     border-radius: 20px;
+     box-shadow: 8px 8px 8px grey;
+     display: flex;
+     justify-content: center;
+     max-width: 1000px !important;
+     min-height: 30vh !important;
+}
+
+.boxGarantia img{
+     width: 120px !important;
+     margin-left: 20px;
+}
+
+#btnComprar{
+     border-radius: 25px !important;
+}
+
+.resuts{
+     min-height: 90vh !important;
+}
+
+.resultsTitle{
+     flex-direction: column;
+}
+
+.resultsPhotos{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100vw;
+}
+
+.faq{
+     background-color: #484B57;
+     flex-direction: column;
+     min-height: 80vh !important;
+}
+
+.doubt{
+     border-bottom: 1px solid white;
+     justify-content: flex-start;
+     width: 70vw;
+}
+
+.doubt p{
+     letter-spacing: 1px;
+}
+
+.anti-OX{
+     background-color: white;
+     flex-direction: column;
+     max-width: 1920px !important;
+}
+
+.anti-OX-text p{
+     font-size: 1.1rem;
+}
+
+.advantages i{
+     font-size: 0.4rem !important;
+}
+
+#btnComprar{
+     background-color: #FF594E;
+} 
+
+
+
+
+
+

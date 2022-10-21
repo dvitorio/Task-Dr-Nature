@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dr Nature - home page (task)</title>
+     <!--BOOTSTRAP-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <!--CSS-->
+     <link rel="stylesheet" href="css/styles.css">
+     <!--FONTAWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+     <!--LOGOMARCA DR NATURE-->
+     <header class="container-fluid header mt-2 p-2 shadow text-center" />
+     <img src="./img/logo_Doutor-Nature.svg" alt="Logomarca" />
+     </header>
+     <!--CONTAINER DA PÁGINA INICIAL-->
+     <section class="col container-fluid centered containerPage">
+          <div class="">
+               <h1 class="mb-5 text-center text-dark">O jeito certo de hidratar a pele tipo "crepe"</h1>
+               <h4 class="bg-success mb-5 pb-1 text-center text-light">E porque a indústria de cosméticos nunca falou
+                    sobre isso...</h4>
+          </div>
+          <div class="col-md-6 frame">
+               <img src="img/maxresdefault.jpg" alt="Imagem frame">
+          </div>
+     </section>
+     <!--CONTAINER DR RAFAEL-->
+     <section class="container-fluid centered drRafael row">
+          <div class="col-md-6">
+               <div class="secondPhrase">
+                    <h1 class="mb-5 text-center text-dark">Porque cremes não hidratam esse tipo de pele "crepe"?</h1>
+                    <h5 class="text-danger">Descubra uma alternativa mais eficiente</h5>
+               </div>
+               <p class="text-dark">Em minhas pesquisas descobri que <b>cremes hidratantes comuns não funcionam em peles
+                         finas e ressecadas</b>, com aparência amassada, que popularmente são chamadas de "pele crepe".
+               </p>
+               <p class="text-dark">A razão disso é <b>porque existem pequenas rachaduras na superfície desse tipo de
+                         pele</b>,
+                    por onde a água vaza. Dessa forma, <b>não adianta insistir aplicando cremes hidratantes</b>, pois
+                    sua pele não
+                    vai reter essa hidratação.
+               </p>
+               <p class="text-dark">Já quando você ingere alguns compostos específicos, e passa a hidratar a sua pele de
+                    dentro para
+                    fora, <b> aí o jogo vira a seu favor. Active Anti Ox </b> é uma fórmula que desenvolvi junto de
+                    minha equipe, para
+                    ajudar a hidratar e recuperar a sua pele, <b>agindo de dentro pra fora</b>.
+               </p>
+          </div>
+          <div class="col-md-4">
+               <img src="img/doutor-rafael.png" alt="">
+          </div>
+     </section>
+     <!--CONTAINER OFERTA-->
+     <section class="container-fluid oferta">
+          <div class="col-md-6 sectionTitle">
+               <h3 class="bg-success p-1 text-center text-white">OFERTA ÚNICA</h3>
+               <h2 class="text-center text-white">Você não verá preço menor em outro lugar</h2>
+          </div>
+          <div class="containerCards">
+               <div class="cards card1 col-md-6">
+                    <button class="btn btn-block btn-secondary mb-5 w-75">
+                         <h4 class="text-center">ESCOLHA SEU PACOTE</h4>
+                    </button>
+                    <div class="boxs mb-4">
+                         <div class="box mr-2">
+                              <h3 class="mx-2 text-center p-1 text-secondary">1</h3>
+                              <h4 class="mx-2 text-center p-1 text-secondary">CAIXA</h4>
+
+                         </div>
+                         <div class="bg-success box mr-2">
+                              <h3 class="mx-2 text-center text-white p-1">3</h3>
+                              <h4 class="mx-2 text-center text-white p-1">CAIXAS</h4>
+                         </div>
+                         <div class="box mr-2">
+                              <h3 class="mx-2 text-center p-1 text-secondary">6</h3>
+                              <h4 class="mx-2 text-center p-1 text-secondary">CAIXAS</h4>
+                         </div>
+                    </div>
+                    <div class="mt-4 pricesProducts">
+                         <h5 class="text-center text-secondary"><b>R$ 148,60 por caixa</b></h5>
+                         <h6 class="mb-3 text-center text-secondary">Economize R$ 136,20</h6>
+                         <h5 class="text-center text-secondary"><b>HOJE:</b> 12X <b>R$ 49,99</b></h5>
+                         <h6 class="mb-2 text-center text-secondary">ou R$ 445,80 à vista</h6>
+                    </div>
+                    <button id="btnComprar" class="btn btn-danger w-75">Comprar agora</button>
+               </div>
+               <div class="cards card2 col-md-6">
+                    <button class="btn btn-block btn-secondary mb-5 w-75">
+                         <h4 class="text-center">ASSINE E ECONOMIZE <p> (OPCIONAL)</h4>
+                    </button>
+                    <button id="btnComprar" class="btn btn-danger w-75">Comprar agora</button>
+               </div>
+          </div>
+     </section>
+
+
+
+     <!--CONTAINER WARRANTY-->
+     <div class="container-fluid garantias">
+          <div class="col-md-5 mt-5 thirdPhrase">
+               <h1 class="text-center text-dark">Se não notar resultados, sua compra sai de graça</h1>
+               <h5 class="text-center text-danger">Sem perguntas, sem pegadinhas...</h5>
+          </div>
+          <div class="col boxGarantia p-2">
+               <div class="boxGarantiaImg">
+                    <img src="./img/selo-garantia.png" alt="">
+               </div>
+               <div class="ml-5 boxGarantiaText">
+                    <p>
+                         Ao fazer o pedido de Active Anti Ox, <b> você está coberto pela nossa garantia de
+                              satisfação.</b>
+                         Esta é uma política que adotamos e cumprimos à risca, que visa proteger nossos
+                         consumidores
+                         para que
+                         eles possa experimentar nossas fórmulas <b> livre de riscos.</b>
+                    </p>
+                    <p>
+                         Se após <b> 30 dias</b> você não estiver completamente satisfeito/a, <b> devolveremos seu
+                              dinheiro em
+                              forma de crédito,</b> para usar em qualquer outro produto da Doutor Nature - sem
+                         perguntas, sem burocracia.
+                    </p>
+               </div>
+          </div>
+     </div>
+
+     <!--RESULTS-->
+     <div class="container-fluid results mt-5">
+          <div class="centered resultsTitle">
+               <h1 class="text-center text-secondary">Veja alguns resultados do Active Anti Ox*</h1>
+               <h5 class="text-center text-danger my-1">Experimente e comece a hidratar a sua pele de verdade</h5>
+          </div>
+          
+          <div class="resultsPhotos">
+               <div class="block1 row">
+                    <div class="col-md-6 photo">
+                         <img src="img/image7.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 photo">
+                         <img src="img/image8.jpg" alt="">
+                    </div>
+               </div>
+               <div class="block2 row">
+                    <div class="col-md-6 photo">
+                         <img src="img/image9.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 photo">
+                         <img src="img/image10.jpg" alt="">
+                    </div>
+               </div>
+          </div>
+          <p class="container text-center text-secondary">
+               *Somos honestos e transparentes com nossos clientes; 
+               os resultados podem variar de pessoa para pessoa, cada organismo 
+               é único e vai reagir aos compostos de forma diferente. Aproveite a 
+               nossa garantia incondicional, compre e avalie você mesmo os resultados. 
+               Essa fórmula foi desenvolvida por médico e sua equipe de pesquisadores.
+          </p>
+     </div>
+
+     <!--CONTAINER FAQ-->
+     <div class="centered container-fluid faq">
+          <h1 class="pt-5 text-center text-white">Tire suas dúvidas</h1>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-2"></i>
+               <p class="ml-2 text-white"> Do que é feito o Active Anti Ox?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Como devo usar o Active Anti-OX?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Active Anti-OX tem contra-indicação?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Precisa de prescrição médica para comprar?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">E se Active Anti-OX não funcionar em mim?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Quando posso perceber resultados?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Além do Vital 4k o que mais vou receber na minha compra?</p>
+          </div>
+          <div class="centered doubt">
+               <i class="fa-solid fa-plus text-danger mb-3"></i>
+               <p class="ml-2 text-white">Vocês tem uma garantia de satisfação?</p>
+          </div>
+     </div>
+
+     <!--CONTAINER ACTIVE ANTI-OX-->
+     <div class="container-fluid anti-OX">
+          <h1 class="text-center text-dark mt-4 mb-2">O melhor suplemento para hidratar sua pele</h1>
+          <h5 class="my-2 text-center text-danger">hidratação de verdade</h5>
+          <div class="col-md-8 anti-OX-text container">
+               <p class="my-4 text-secondary">Os ingredientes poderosos do Active Anti OX trabalham juntos para:</p>
+               <div class="advantages centered doubt mb-2">
+                    <i class="fa-solid fa-circle mb-3 text-success"></i>
+                    <p class="ml-2 text-secondary">Devolver a firmeza na pele crepe</p>
+               </div>
+               <div class="advantages centered doubt mb-2">
+                    <i class="fa-solid fa-circle mb-3 text-success"></i>
+                    <p class="ml-2 text-secondary">Preencher as rugas e rachaduras da superfície da pele</p>
+               </div>
+               <div class="advantages centered doubt mb-2">
+                    <i class="fa-solid fa-circle mb-3 text-success"></i>
+                    <p class="ml-2 text-secondary">Reduzir linhas finas do rosto, pescoço e colo</p>
+               </div>
+               <div class="advantages centered doubt mb-2">
+                    <i class="fa-solid fa-circle mb-3 text-success"></i>
+                    <p class="ml-2 text-secondary">Reestabelecer o brilho natural da pele</p>
+               </div>
+               <div class="advantages centered doubt mb-2">
+                    <i class="fa-solid fa-circle mb-3 text-success"></i>
+                    <p class="ml-2 text-secondary">Hidratando a pele, de dentro para fora</p>
+               </div>
+          </div>
+          <div class="col-md-4 anti-OX-img">
+               <img src="img/image11.jpg" alt="anti-ox" width="500">
+          </div>
+     </div>
+
+
+
+
+
+
+     <!--JAVASCRIPT-->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
