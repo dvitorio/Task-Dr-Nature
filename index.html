@@ -64,11 +64,11 @@
      <!--CONTAINER OFERTA-->
      <section class="container-fluid oferta">
           <div class="col-md-6 sectionTitle">
-               <h3 class="bg-success p-1 text-center text-white">OFERTA ÚNICA</h3>
+               <h3 class="bg-success mt-3 p-1 text-center text-white">OFERTA ÚNICA</h3>
                <h2 class="text-center text-white">Você não verá preço menor em outro lugar</h2>
           </div>
           <div class="containerCards">
-               <div class="cards card1 col-md-6">
+               <div class="cards card1 col-md-6 mr-2">
                     <button class="btn btn-block btn-secondary mb-5 w-75">
                          <h4 class="text-center">ESCOLHA SEU PACOTE</h4>
                     </button>
@@ -96,10 +96,20 @@
                     <button id="btnComprar" class="btn btn-danger w-75">Comprar agora</button>
                </div>
                <div class="cards card2 col-md-6">
-                    <button class="btn btn-block btn-secondary mb-5 w-75">
-                         <h4 class="text-center">ASSINE E ECONOMIZE <p> (OPCIONAL)</h4>
+                    <img id="badge" src="img/badge.png" alt="Badge" width="70">
+                    <button class="btn btn-block btn-secondary mb-1 w-75">
+                         <h4 class="text-center">ASSINE E ECONOMIZE <br> (OPCIONAL)</h4>
                     </button>
-                    <button id="btnComprar" class="btn btn-danger w-75">Comprar agora</button>
+                    <div class="d-block ticks">
+                         <p class="text-secondary"><b><i class="fa-solid fa-check"></i></b> Desconto máximo aplicado</p>
+                         <p class="text-secondary"><b><i class="fa-solid fa-check"></i></b> Entrega Automática em sua Casa</p>
+                         <p class="text-secondary"><b><i class="fa-solid fa-check"></i></b> Menor Preço Garantido / Sem Reajustes</p>
+                         <p class="text-secondary"><b><i class="fa-solid fa-check"></i></b> Cancele quando quiser / Sem Taxas</p>
+                    </div>
+                    <div class="d-flex disccount mb-3 p-1 w-75">
+                         <img class="mb-4" src="img/check-icon-mobile-checked.png" width="30" alt="">
+                         <p class="text-center text-secondary"><b>SIM!</b> Eu quero ser assinate e ganhar DESCONTO!</p>
+                    </div>
                </div>
           </div>
      </section>
@@ -107,7 +117,7 @@
 
 
      <!--CONTAINER WARRANTY-->
-     <div class="container-fluid garantias">
+     <div class="container-fluid garantias row">
           <div class="col-md-5 mt-5 thirdPhrase">
                <h1 class="text-center text-dark">Se não notar resultados, sua compra sai de graça</h1>
                <h5 class="text-center text-danger">Sem perguntas, sem pegadinhas...</h5>
@@ -127,8 +137,7 @@
                     </p>
                     <p>
                          Se após <b> 30 dias</b> você não estiver completamente satisfeito/a, <b> devolveremos seu
-                              dinheiro em
-                              forma de crédito,</b> para usar em qualquer outro produto da Doutor Nature - sem
+                              dinheiro em forma de crédito,</b> para usar em qualquer outro produto da Doutor Nature - sem
                          perguntas, sem burocracia.
                     </p>
                </div>
@@ -207,36 +216,55 @@
      </div>
 
      <!--CONTAINER ACTIVE ANTI-OX-->
-     <div class="container-fluid anti-OX">
+     <div class="centered container anti-OX mb-5">
           <h1 class="text-center text-dark mt-4 mb-2">O melhor suplemento para hidratar sua pele</h1>
           <h5 class="my-2 text-center text-danger">hidratação de verdade</h5>
-          <div class="col-md-8 anti-OX-text container">
-               <p class="my-4 text-secondary">Os ingredientes poderosos do Active Anti OX trabalham juntos para:</p>
-               <div class="advantages centered doubt mb-2">
-                    <i class="fa-solid fa-circle mb-3 text-success"></i>
-                    <p class="ml-2 text-secondary">Devolver a firmeza na pele crepe</p>
+          <div class="anti-OX-Details row">
+               <div class="col-md-5 anti-OX-text">
+                    <p class="my-4 text-secondary">Os ingredientes poderosos do Active Anti OX trabalham juntos para:</p>
+                    <div class="advantages centered doubt mb-2">
+                         <i class="fa-solid fa-circle mb-3 text-success"></i>
+                         <p class="ml-2 text-secondary">Devolver a firmeza na pele crepe</p>
+                    </div>
+                    <div class="advantages centered doubt mb-2">
+                         <i class="fa-solid fa-circle mb-3 text-success"></i>
+                         <p class="ml-2 text-secondary">Preencher as rugas e rachaduras da superfície da pele</p>
+                    </div>
+                    <div class="advantages centered doubt mb-2">
+                         <i class="fa-solid fa-circle mb-3 text-success"></i>
+                         <p class="ml-2 text-secondary">Reduzir linhas finas do rosto, pescoço e colo</p>
+                    </div>
+                    <div class="advantages centered doubt mb-2">
+                         <i class="fa-solid fa-circle mb-3 text-success"></i>
+                         <p class="ml-2 text-secondary">Reestabelecer o brilho natural da pele</p>
+                    </div>
+                    <div class="advantages centered doubt mb-2">
+                         <i class="fa-solid fa-circle mb-3 text-success"></i>
+                         <p class="ml-2 text-secondary">Hidratando a pele, de dentro para fora</p>
+                    </div>
                </div>
-               <div class="advantages centered doubt mb-2">
-                    <i class="fa-solid fa-circle mb-3 text-success"></i>
-                    <p class="ml-2 text-secondary">Preencher as rugas e rachaduras da superfície da pele</p>
+               <div class="col-md-7 anti-OX-img mt-5">
+                    <img src="img/image11.jpg" alt="anti-ox" width="500">
                </div>
-               <div class="advantages centered doubt mb-2">
-                    <i class="fa-solid fa-circle mb-3 text-success"></i>
-                    <p class="ml-2 text-secondary">Reduzir linhas finas do rosto, pescoço e colo</p>
-               </div>
-               <div class="advantages centered doubt mb-2">
-                    <i class="fa-solid fa-circle mb-3 text-success"></i>
-                    <p class="ml-2 text-secondary">Reestabelecer o brilho natural da pele</p>
-               </div>
-               <div class="advantages centered doubt mb-2">
-                    <i class="fa-solid fa-circle mb-3 text-success"></i>
-                    <p class="ml-2 text-secondary">Hidratando a pele, de dentro para fora</p>
-               </div>
-          </div>
-          <div class="col-md-4 anti-OX-img">
-               <img src="img/image11.jpg" alt="anti-ox" width="500">
           </div>
      </div>
+
+     <!--FOOTER-->
+     <footer class="centered rodape">
+          <p class="mt-5 text-left text-secondary w-75">
+               Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença; os 
+               resultados podem variar de pessoas para pessoa; esses depoimentos podem ser fictícios; esta 
+               informação não constitui aconselhamento médico e não deve ser considerada como tal; consulte 
+               o seu médico antes de modificar o seu regime médico regular. Este é um advertorial e não um 
+               artigo de notícia ou blog. Produto dispensado da obrigatoriedade de registro conforme RDC 27/2010 
+          </p>
+          <div class="brandFooter container row">
+               <div class="col-md-3 logo"><img src="img/logo_footer-DoutorNature.svg" alt="Logo rodapé" width="200"></div>
+               <div class="col-md-9 copyRight">
+                    <p>&copy;2022 Doutor Nature - Todos os direitos reservados - Política de Privacidade / Termos de Uso</p>
+               </div>
+          </div>
+     </footer>
 
 
 

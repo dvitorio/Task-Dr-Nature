@@ -89,6 +89,18 @@
      min-height: 25rem;
 }
 
+.cards:hover{
+     transform: scale(1.1);
+     transition: 0.4s ease-in-out;
+     box-shadow: 3px 6px 9px rgb(31, 30, 30);
+     margin: 10px;
+}
+
+#badge{
+   margin-left: 94%;
+   margin-top: -15%;
+}
+
 .sectionTitle h3{
      width: 200px;
 }
@@ -118,7 +130,7 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
-     min-height: 50vh !important;
+     min-height: auto;
 }
 
 .boxGarantia{
@@ -128,7 +140,7 @@
      display: flex;
      justify-content: center;
      max-width: 1000px !important;
-     min-height: 30vh !important;
+     min-height: auto;
 }
 
 .boxGarantia img{
@@ -180,6 +192,7 @@
 
 .anti-OX-text p{
      font-size: 1.1rem;
+     margin-left: 40px !important;
 }
 
 .advantages i{
@@ -190,7 +203,50 @@
      background-color: #FF594E;
 } 
 
+.ticks p{
+     margin-bottom: 8px;
+}
 
+.disccount{
+     display: flex;
+     align-items: center;
+     display: flex;
+     background-color: lightgrey;
+     width: fit-content;
+     border-radius: 5px;
+     min-height: auto;
+}
+
+.disccount p{
+     letter-spacing: 1px;
+}
+
+.anti-OX-Details{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.rodape{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     background-color: rgb(230, 216, 216);
+     height: 30vh !important;
+}
+
+.rodape p{
+     font-size: 0.9rem;
+     color: grey;
+}
+
+.brandFooter{
+     display: flex;
+     align-items: center;
+     justify-content: space-between !important;
+}
 
 
 
